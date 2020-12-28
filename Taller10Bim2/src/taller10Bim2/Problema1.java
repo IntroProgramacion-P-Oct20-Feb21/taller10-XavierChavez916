@@ -12,7 +12,9 @@ package taller10Bim2;
 public class Problema1 {
 
     public static void main(String[] args) {
-        double notas[][] = {{9.0, 10.0, 7.0, 8.0}, {10.0, 5.0, 7.0, 9.0}, {7, 9.4, 10, 9}};
+        double notas[][] = {{9.0, 10.0, 7.0, 8.0}, 
+            {10.0, 5.0, 7.0, 9.0}, 
+            {7, 9.4, 10, 9}};
         double promedio[] = new double[3];
         String[] estudiantes = new String[3];
         estudiantes[0] = "Jerry Ponce";
